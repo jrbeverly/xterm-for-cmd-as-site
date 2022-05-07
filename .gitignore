@@ -137,3 +137,4 @@ build/
 # wasm
 *.wasm
 wasm-lib/
+wasm_exec.js

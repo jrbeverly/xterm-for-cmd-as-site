@@ -14,9 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build:react": "react-scripts build",
-    "build:wasm": "bash scripts/wasm.sh",
-    "build": "npm run build:wasm && npm run build:react",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "test:e2e": "jest -c e2e/jest.config.js",
     "eject": "react-scripts eject"
