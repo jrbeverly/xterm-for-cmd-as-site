@@ -1,0 +1,15 @@
+image:
+  file: .gitpod/Dockerfile
+
+tasks:
+  - name: Initialize
+    command: make init
+  
+vscode:
+  extensions:
+    - golang.go
+    - ms-azuretools.vscode-docker
+    - bazelbuild.vscode-bazel
+
+ports:
+  - port: 3000
